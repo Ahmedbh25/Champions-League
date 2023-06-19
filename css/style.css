@@ -1,0 +1,88 @@
+body {
+    margin: auto;
+    background-color: rgb(219, 219, 219);
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+#imgChampions {
+    border-radius: 50%;
+    width: 50px;
+    margin-right: 5px;
+}
+
+.navbar {
+    padding-top: 10px;
+    background-color: rgb(0, 0, 0, 0.9);
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-links li a:hover{
+    cursor: pointer;
+    color:aqua;
+}
+
+.search input {
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+  }
+
+.auth button{
+    background-color: brown;
+    border: none;
+    padding: 7px 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.auth button:hover{
+    background-color: #ff5757;
+    cursor:pointer;
+}
+
+.img-player, .team-list .team-container img {
+    width: 300px;
+    height: 250px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    transition: transform 0.6s ease;
+    cursor: pointer;
+}
+
+.big-title{
+    text-align: center;
+    margin-top: 50px;
+}
